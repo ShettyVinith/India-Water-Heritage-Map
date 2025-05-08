@@ -1,0 +1,96 @@
+/* Reset some default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f2f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(135deg, #00aaff, #0066cc);
+  color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1rem;
+}
+
+/* Map container */
+#map {
+  height: 80vh;
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: white;
+  margin-top: 2rem;
+}
+
+footer p {
+  font-size: 0.9rem;
+}
+
+/* Style the Leaflet popup card */
+.leaflet-popup-content {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  margin: 0;
+  max-width: 300px;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  background-color: #e0e1dd; /* updated background */
+}
+
+.leaflet-popup-tip {
+  background-color: #e0e1dd; /* updated background */
+}
+
+.leaflet-popup-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Format bold labels */
+.leaflet-popup-content strong {
+  display: inline-block;
+  margin-top: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Improve line spacing */
+.leaflet-popup-content p {
+  margin: 4px 0;
+  line-height: 1.5;
+  color: #444;
+}
